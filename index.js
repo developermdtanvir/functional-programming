@@ -45,3 +45,9 @@ console.log(add(arr, 20));
 function add(data) {
     arr.push(data);
 }
+
+
+//impure function
+function log(msg) {
+    console.log(msg);
+}
