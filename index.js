@@ -51,3 +51,4 @@ function add(data) {
 function log(msg) {
     console.log(msg);
 }
+
