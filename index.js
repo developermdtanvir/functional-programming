@@ -31,4 +31,17 @@ const data = filterFunction([20, 30, 50, 60, 70, 80, 90, 31, 32, 33, 34, 35,], i
 
 console.log(data);
 
+const arr = [10, 20, 30];
 
+// pure function 
+function add(arr, data) {
+    arr.push(data);
+}
+
+console.log(add(arr, 20));
+
+// impure function 
+
+function add(data) {
+    arr.push(data);
+}
